@@ -8,7 +8,7 @@ const recognize = async ({ target: { files }  }) => {
     var re = ",";" ";
     var array = text.split(re);
 
-    //console.log(array)
+    console.log(array)
 
     var resultado = "";
     $("#loder").hide();
@@ -29,7 +29,7 @@ const recognize = async ({ target: { files }  }) => {
                 .replace("Tomado","Tornado")
                 .replace("Torado","Tornado")
                 .replace("Bjx]","Bjxl")
-                .replace("Firetruk","Firetruck")
+                .replace("Firetruk","FireTruck")
                 .replace("RapidgtGT2","Rapidgt2")
                 .replace("Suftan","Sultan")
             )
